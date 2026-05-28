@@ -1,0 +1,31 @@
+TASK 1 - Vulnerability Assessment
+
+Target Website:
+https://demo.owasp-juice.shop/
+
+Tools Used:
+1. OWASP ZAP
+2. Browser DevTools
+3. GitHub
+
+Findings:
+1. Content Security Policy (CSP) Header Not Set
+   Risk Level: Medium
+
+2. Cross-Domain Misconfiguration
+   Risk Level: Medium
+
+3. Server Leaks Version Information
+   Risk Level: Low
+
+4. Strict-Transport-Security Header Not Set
+   Risk Level: Medium
+
+5. Timestamp Disclosure - Unix
+   Risk Level: Low
+
+6. Information Disclosure - Suspicious Comments
+   Risk Level: Informational
+
+Conclusion:
+The assessment identified several security misconfigurations and information disclosure issues in the target application using passive scanning techniques.
